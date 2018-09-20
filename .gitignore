@@ -32,3 +32,6 @@ project/plugins/project/
 
 .cache-*
 *.orig
+
+# approvals
+*.received
