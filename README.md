@@ -1,3 +1,4 @@
-Functional Programing in Scala course.
+Demo for approvals-java in a scala project
 
-Import in IntelliJ as sbt project.
+Updated to 0.5.1 :
+now `sbt ~test` does not trigger tests infinitely.
