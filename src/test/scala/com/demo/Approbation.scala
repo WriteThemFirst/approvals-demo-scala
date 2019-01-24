@@ -2,10 +2,13 @@ package com.demo
 
 import com.github.writethemfirst.approvals.approvers.Approver
 import org.scalatest.{Matchers, Outcome, fixture}
+import pprint.PPrinter
+import pprint.PPrinter.BlackWhite
 
 class Approbation extends fixture.FlatSpec with Matchers {
 
-  private val approvals = (new Approver).testing(getClass)
+  private val approvals  = (new Approver).testing(getClass)
+  val prettify: PPrinter = BlackWhite.copy(defaultHeight = Int.MaxValue)
 
   override type FixtureParam = Approver
 

@@ -5,4 +5,10 @@ class HelloWorldTest extends Approbation {
     val result = HelloWorld.greet("world")
     approver.verify(result)
   }
+
+  "list" should "have nice representation" in { approver =>
+    val representation = prettify(List.tabulate(5, 7)((_, _)))
+    approver.verify(representation)
+  }
+
 }
