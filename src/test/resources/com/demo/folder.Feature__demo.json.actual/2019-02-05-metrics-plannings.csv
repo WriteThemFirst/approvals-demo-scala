@@ -1,0 +1,17 @@
+period.from;2019-02-05T15:00:00
+period.to;2019-02-05T21:31:17
+totalNumberOfDeliveries;172
+averageNumberOfCouriersPerDayOverPeriod;12
+maxNumberOfDeliveriesInOneRoute;21
+minNumberOfDeliveriesInOneRoute;8
+diffMaxMin;13
+totalCost[euros];594.41184
+totalDistance[kilometers];361.82855
+totalTime[minutes];1031.49426
+averageCostPerDelivery[euros];3.45588
+averageDistancePerDelivery[kilometers];2.10365
+minNumberOfPoints;8
+maxTimeOutBetweenConsecutiveTasks[minutes];20.0
+laborCost[euros/h];23.00000
+wearCost[euros/h];0.55000
+maxHandlingTimeOutsideTimeWindow[minutes];0.0
