@@ -4,7 +4,7 @@ scalaVersion := "2.12.8"
 libraryDependencies ++= Seq(scalaTest, approvalsJava, pprint)
 resolvers += Resolver.bintrayRepo("writethemfirst", "maven")
 
-lazy val scalaTest     = "org.scalatest"             %% "scalatest"     % "3.0.5" % Test
+lazy val scalaTest     = "org.scalatest"             %% "scalatest"     % "3.0.8" % Test
 lazy val pprint        = "com.lihaoyi"               %% "pprint"        % "0.5.5" % Test
 lazy val approvalsJava = "com.github.writethemfirst" % "approvals-java" % "0.10.0" % Test
 
