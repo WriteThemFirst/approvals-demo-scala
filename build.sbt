@@ -6,7 +6,7 @@ resolvers += Resolver.bintrayRepo("writethemfirst", "maven")
 
 lazy val scalaTest     = "org.scalatest"             %% "scalatest"     % "3.0.5" % Test
 lazy val approvalsJava = "com.github.writethemfirst" % "approvals-java" % "0.9.0" % Test
-lazy val pprint        = "com.lihaoyi"               %% "pprint"        % "0.5.3" % Test
+lazy val pprint        = "com.lihaoyi"               %% "pprint"        % "0.5.5" % Test
 
 //ThisBuild / Test / fork := true
 //ThisBuild / Test / javaOptions += "-DAUTO_APPROVE=true"
