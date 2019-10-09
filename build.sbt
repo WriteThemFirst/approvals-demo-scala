@@ -1,12 +1,19 @@
 organization := "com.github.writethemfirst"
-version := "0.1-SNAPSHOT"
-scalaVersion := "2.12.8"
-libraryDependencies ++= Seq(scalaTest, approvalsJava, pprint)
+scalaVersion := "2.12.10"
+libraryDependencies ++= Seq(scalaTest, approvalsJava)
 resolvers += Resolver.bintrayRepo("writethemfirst", "maven")
+resolvers += Resolver.mavenLocal
 
 lazy val scalaTest     = "org.scalatest"             %% "scalatest"     % "3.0.8" % Test
-lazy val pprint        = "com.lihaoyi"               %% "pprint"        % "0.5.5" % Test
-lazy val approvalsJava = "com.github.writethemfirst" % "approvals-java" % "0.11.0" % Test
+lazy val approvalsJava = "com.github.writethemfirst" %% "approvals-scala" % "0.11.2-SNAPSHOT" % Test
 
-//ThisBuild / Test / fork := true
-//ThisBuild / Test / javaOptions += "-DAUTO_APPROVE=true"
+
+// Uncomment the next 2 lines for auto-approbation
+ThisBuild / Test / fork := true
+ThisBuild / Test / javaOptions += "-DAUTO_APPROVE=true"
+
+
+version := "0.11.2-SNAPSHOT"
+
+
+

@@ -2,7 +2,7 @@ package com.demo.file
 
 import java.nio.file.Files._
 
-import com.demo.Approbation
+import com.github.writethemfirst.Approbation
 
 class FileContentTest extends Approbation {
   "file content" should "be the same" in { approver =>
