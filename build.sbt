@@ -4,7 +4,7 @@ libraryDependencies ++= Seq(scalaTest, approvalsJava)
 resolvers += Resolver.bintrayRepo("writethemfirst", "maven")
 resolvers += Resolver.mavenLocal
 
-val approvalsVersion = "0.12.0"
+val approvalsVersion = "0.12.1"
 
 version := approvalsVersion
 
