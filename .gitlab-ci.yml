@@ -1,4 +1,4 @@
 test:
   script:
     - sbt test
-  image: hseeberger/scala-sbt:11.0.7_1.3.12_2.12.11
+  image: hseeberger/scala-sbt:11.0.7_1.3.12_2.12.13

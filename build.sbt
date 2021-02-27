@@ -1,5 +1,5 @@
 organization := "com.github.writethemfirst"
-scalaVersion := "2.12.11"
+scalaVersion := "2.12.13"
 libraryDependencies ++= Seq(approvalsScala)
 resolvers += Resolver.bintrayRepo("writethemfirst", "maven")
 resolvers += Resolver.mavenLocal
